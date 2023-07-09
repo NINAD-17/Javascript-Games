@@ -1,0 +1,57 @@
+body {
+    background-color: #8990EC;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    color: #272639;
+}
+
+/********** ID ************/
+#purple {
+    background-color: purple;
+    border-right: none;
+    color: #F4F7F7;
+}
+
+#yellow {
+    background-color: yellow;
+    color: #303841;
+}
+
+#red {
+    background-color: red;
+    border-left: none;
+    color: #F4F7F7;
+}
+
+/******** Classes *********/
+.colorBox {
+    height: 300px;
+    width: 300px;
+    font-size: 130px;
+}
+
+.mainDiv {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+
+#clearBtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 350px;
+    background-color: #5E89EF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+#clearBtn:hover {
+    background-color: #D1E8E4;
+}
